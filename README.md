@@ -1,6 +1,6 @@
 # vm-invoice
 
-This is my solution to a FrontEnd challenge. It's not complete, it serves as a demo of most aspects required to build such application. Other missing features can be implemented following similar methodology.
+Invoice manager using VueJS. It's not complete, it serves as a demo of most aspects required to build such application. Other missing features can be implemented following similar methodology.
 
 Topics: 
 - Component architecture: - we count different types of components:
@@ -36,7 +36,7 @@ Topics:
 To consider (is it new module?):
   - dependencies
   - state
-  - routing 
+  - rounting 
   - API interaction
   - middleware
   - tests
@@ -57,6 +57,12 @@ To consider (is it new module?):
     - Testing
     - icons
     - Improve Error Handling
+
+- Improvements:
+    - Generate Tabs from router
+    - Refactoring tab component
+    - Build mobile UI
+    - Reactive programming using RxJS: https://github.com/vuejs/vue-rx
 
 ## Project setup
 ```
